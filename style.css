@@ -114,7 +114,7 @@ div.container form div.content select {
 
 div.type {
   padding: 10px 0 20px 10px;
-  width: 35%;
+  width: 45%;
   font-size: 1.1em;
 }
 
@@ -126,7 +126,7 @@ div.gender {
   display: flex;
   justify-content: left;
   flex-flow: column;
-  width: 30%;
+  width: 35%;
   padding: 10px 0 20px 10px;
   font-size: 1.1em;
 }
