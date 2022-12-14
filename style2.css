@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/netflix.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.black-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 95vw;
+  height: fit-content;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  box-sizing: border-box;
+}
+
+.welcome {
+  text-align: center;
+  padding: 15px;
+  font-size: 2.5em;
+  font-family: "Bowlby One SC", cursive;
+}
+
+div.welcome h1 {
+  color: #fff;
+}
+
+div.welcome span {
+  color: red;
+}
+
+div.welcome p {
+  color: #fff;
+  font-size: 0.8em;
+  font-family: "Dancing Script", cursive;
+}
+
+div.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 40vw;
+}
+
+div.container input {
+  color: #fff;
+}
+
+div.container label {
+  color: #fff;
+}
+
+div.container form {
+  height: 85%;
+  padding: 35px;
+  font-size: 1.1em;
+}
+
+div.container form div.name {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+div.container form div.name input {
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+div.container form div.age {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+div.container form div.age input {
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+div.container form div.email {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+div.container form div.email input {
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+div.container form div.content {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  width: 90%;
+}
+
+div.container form div.content select {
+  padding: 20px;
+  font-size: 1.1em;
+}
+
+div.type {
+  padding: 10px 0 20px 10px;
+  width: 45%;
+  font-size: 1.1em;
+}
+
+div.type label {
+  margin-bottom: -45px;
+}
+
+div.gender {
+  display: flex;
+  justify-content: left;
+  flex-flow: column;
+  width: 35%;
+  padding: 10px 0 20px 10px;
+  font-size: 1.1em;
+}
+
+div.gender label {
+  margin-bottom: -35px;
+}
+
+div.gender .gender1 {
+  padding-top: 15px;
+}
+
+div.feed {
+  display: flex;
+  flex-flow: column;
+  padding: 10px 0 20px 10px;
+  width: 80%;
+  height: 25%;
+  font-size: 1.1em;
+}
+
+div.feed label {
+  width: 45%;
+}
+
+div.button {
+  display: flex;
+  justify-content: center;
+}
+
+div.button input {
+  width: 30%;
+  background-color: rgb(218, 54, 54);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 1em;
+}
+
+div.button input:hover {
+  background-color: darkred;
+}
+
+div.button input:active {
+  background-color: rgb(255, 73, 73);
+  font-weight: 600;
+  color: black;
+}
