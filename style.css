@@ -8,7 +8,7 @@ body {
   background-image: url(./img/netflix.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,8 @@ body {
 .black-box {
   background-color: rgba(0, 0, 0, 0.3);
   width: 95vw;
-  height: 98vh;
+  height: fit-content;
+  margin-bottom: 15px;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -164,6 +165,7 @@ div.button input {
   border-radius: 10px;
   padding: 10px;
   border: none;
+  font-size: 1em;
 }
 
 div.button input:hover {
