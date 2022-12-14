@@ -29,7 +29,7 @@ body {
 
 .welcome {
   text-align: center;
-  padding: 25px;
+  padding: 15px;
   font-size: 2.5em;
   font-family: "Bowlby One SC", cursive;
 }
@@ -114,7 +114,7 @@ div.container form div.content select {
 
 div.type {
   padding: 10px 0 20px 10px;
-  width: 31%;
+  width: 35%;
   font-size: 1.1em;
 }
 
@@ -126,7 +126,7 @@ div.gender {
   display: flex;
   justify-content: left;
   flex-flow: column;
-  width: 27%;
+  width: 30%;
   padding: 10px 0 20px 10px;
   font-size: 1.1em;
 }
@@ -149,7 +149,7 @@ div.feed {
 }
 
 div.feed label {
-  width: 30%;
+  width: 45%;
 }
 
 div.button {
