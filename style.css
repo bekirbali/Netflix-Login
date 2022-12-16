@@ -75,7 +75,7 @@ div.container form div.name {
 }
 
 div.container form div.name input {
-  padding: 20px;
+  padding: 10px;
   font-size: 1.1em;
 }
 
@@ -86,7 +86,7 @@ div.container form div.age {
 }
 
 div.container form div.age input {
-  padding: 20px;
+  padding: 10px;
   font-size: 1.1em;
 }
 
@@ -97,7 +97,7 @@ div.container form div.email {
 }
 
 div.container form div.email input {
-  padding: 20px;
+  padding: 10px;
   font-size: 1.1em;
 }
 
@@ -109,7 +109,7 @@ div.container form div.content {
 }
 
 div.container form div.content select {
-  padding: 20px;
+  padding: 10px;
   font-size: 1.1em;
 }
 
@@ -147,7 +147,12 @@ div.feed {
   width: 80%;
   height: 25%;
   font-size: 1.1em;
+}
+
+div.feed textarea {
   resize: none;
+  font-size: 1.1em;
+  padding: 10px;
 }
 
 div.feed label {
