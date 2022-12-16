@@ -188,3 +188,11 @@ input:focus,
 textarea:focus {
   outline: none;
 }
+
+.type1 input {
+  accent-color: red;
+}
+
+.gender1 input {
+  accent-color: yellow;
+}
