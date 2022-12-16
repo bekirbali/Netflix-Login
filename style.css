@@ -184,6 +184,7 @@ div.button input:active {
   color: black;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
