@@ -183,3 +183,7 @@ div.button input:active {
   font-weight: 600;
   color: black;
 }
+
+input:focus {
+  outline: none;
+}
