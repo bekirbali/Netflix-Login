@@ -147,6 +147,7 @@ div.feed {
   width: 80%;
   height: 25%;
   font-size: 1.1em;
+  resize: none;
 }
 
 div.feed label {
